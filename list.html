@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マスリスト</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <form method="POST" class="flex align-middle justify-center">
+        <input type="text" name="search" id="search" placeholder="検索" class="w-1/2 m-5 h-8 border-2 border-gray-500"/>
+    </form>
+    <hr />
+    <div id="list_wrapper" class="m-5 w-2/3 mx-auto">
+        <ul class="border-2 border-gray-500 ">
+            <h3 class="text-center" id="list">リスト</h3>
+        </ul>
+    </div>
+    <script src="./list.js"></script>
+</body>
+</html>
